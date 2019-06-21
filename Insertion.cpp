@@ -37,7 +37,7 @@ void ins_node(Node** head_ptr,int m,int x)
     {
         if((*head_ptr)->data==m)
         {
-            temp->link=(*head_ptr)->link;
+            temp->link=(*head_ptr)->link;.
             (*head_ptr)->link=temp;
             break;
         }
